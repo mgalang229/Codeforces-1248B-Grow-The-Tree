@@ -15,7 +15,7 @@ int main() {
 	sort(a.rbegin(), a.rend());
 	long long x = 0;
 	long long y = 0;
-	// run the loop while until the middle position
+	// run the loop until the middle position
 	for (int i = 0; i < (n % 2 == 0 ? n / 2 : n / 2 + 1); i++) {
 		// add the element from the left side to 'x'
 		x += a[i];
